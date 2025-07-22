@@ -18,25 +18,23 @@ GolangとEbitengineを使用したデスクトップToDoリストアプリケー
 
 ## インストールと実行
 
-1. リポジトリをクローン
+### 方法1: 直接実行（推奨）
 ```bash
-git clone <repository-url>
-cd todo-app
+go run github.com/lapis2411/todo
 ```
 
-2. 依存関係のインストール
+### 方法2: インストールして実行
 ```bash
-go mod tidy
+go install github.com/lapis2411/todo@latest
+todo
 ```
 
-3. アプリケーションのビルド
+### 方法3: ローカルでビルドして実行
 ```bash
-go build -o todo-app
-```
-
-4. アプリケーションの実行
-```bash
-./todo-app
+git clone https://github.com/lapis2411/todo.git
+cd todo
+go build -o todo
+./todo
 ```
 
 ## 使用方法

@@ -10,9 +10,9 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/text"
 	"golang.org/x/image/font/basicfont"
 
-	"todo-app/internal/models"
-	"todo-app/internal/storage"
-	"todo-app/internal/ui"
+	"github.com/lapis2411/todo/internal/models"
+	"github.com/lapis2411/todo/internal/storage"
+	"github.com/lapis2411/todo/internal/ui"
 )
 
 const (

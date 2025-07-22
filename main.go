@@ -6,7 +6,7 @@ import (
 
 	"github.com/hajimehoshi/ebiten/v2"
 
-	"todo-app/internal/game"
+	"github.com/lapis2411/todo/internal/game"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"todo-app/internal/models"
+	"github.com/lapis2411/todo/internal/models"
 )
 
 type Storage interface {

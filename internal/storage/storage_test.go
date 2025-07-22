@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"todo-app/internal/models"
+	"github.com/lapis2411/todo/internal/models"
 )
 
 func TestFileStorageSaveAndLoad(t *testing.T) {

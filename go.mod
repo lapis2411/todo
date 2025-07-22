@@ -1,4 +1,4 @@
-module todo-app
+module github.com/lapis2411/todo
 
 go 1.23.0
 
